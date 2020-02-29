@@ -1,5 +1,5 @@
 /**
- * 代理模式
+ * 代理模式，替别的类做，但是得先检查下
  */
 public class N_demo {
   public static void main(String[] args) {
