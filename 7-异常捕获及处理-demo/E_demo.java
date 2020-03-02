@@ -19,7 +19,7 @@ class Math {
     try {
       temp = i/j;
     } catch (Exception e) {
-      throw e; // 捕捉到异常，但是未处理，没有吃掉，而是向上抛给调用者
+      throw e; // 捕捉到异常，但是未处理，没有使用try进行处理，而是向上抛给调用者
     } finally {
       System.out.println("计算结束-------");
     }
